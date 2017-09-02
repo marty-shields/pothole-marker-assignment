@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- Your app title -->
+    <title>Pothole Reporter</title>
+    <!-- Path to Framework7 iOS CSS theme styles-->
+    <link rel="stylesheet" href="node_modules/framework7/dist/css/framework7.ios.min.css">
+    <!-- Path to Framework7 iOS related color styles -->
+    <link rel="stylesheet" href="node_modules/framework7/dist/css/framework7.ios.colors.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+  </head>
+  <body>
+    <!-- Status bar overlay for full screen mode (PhoneGap) -->
+    <div class="statusbar-overlay"></div>
+    <!-- Views -->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Top Navbar-->
+        <div class="navbar">
+          <div class="navbar-inner">
+            <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
+            <div class="center sliding">Pothole Reporter</div>
+            <div class="right">
+            </div>
+          </div>
+        </div>
+        <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through">
+          <!-- Page, "data-page" contains page name -->
+          <div data-page="index" class="page">
+            <!-- Scrollable page content -->
+            <div class="page-content">
+              <div class="content-block">
+              <h1>Main Menu</h1>
+              <div class="content-block-title">Choose An Option</div>
+                <div class="list-block">
+                  <ul>
+                    <li>
+                      <a href="report-pothole.html" class="item-link item-content">
+                        <div class="item-inner">
+                          <div class="item-title">Report Pothole</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="view-pothole.html" data-context-name="potholes" class="item-link item-content">
+                        <div class="item-inner">
+                          <div class="item-title">View Reported Potholes</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="about.html" class="item-link item-content">
+                        <div class="item-inner">
+                          <div class="item-title">About Application</div>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="node_modules/framework7/dist/js/framework7.min.js"></script>
+
+    <script src="http://maps.google.com/maps/api/js?key=AIzaSyCua5jfOXPtsa37abKTaKjByeiExBm9tco"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+    <!--Custom JS-->
+    <script type="text/javascript" src="js/pothole-record.js"></script>
+    <!--Jquery-->
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "task-b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "framework7": "^1.4.2",
+    "jquery": "^2.2.3"
+  }
+}

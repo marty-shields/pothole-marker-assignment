@@ -1,0 +1,17 @@
+{
+  "name": "api-taskb",
+  "version": "1.0.0",
+  "description": "api to allow communication for potholes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin Shields",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "sqlite3": "^3.1.3"
+  }
+}

@@ -1,0 +1,108 @@
+/*contact form*/
+#contactForm label{
+  text-align: right;
+}
+#contactForm h2{
+  text-align: center;
+  padding-bottom: 10px;
+}
+#contactForm form{
+  align-items: center;
+}
+#contactForm{
+  padding-top: 30px;
+  margin: 0 auto;
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  #contactForm button{
+    margin-left: 17%;
+  }
+}
+
+/*dev details*/
+#devDetails{
+  padding-top: 20px;
+}
+#devDetails h2{
+  padding-bottom: 10px;
+}
+#devDetails p{
+  padding-bottom: 5px;
+}
+
+/*footer*/
+.footer{
+  background-color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  padding-top: 10px;
+}
+/*login*/
+.wrapper {
+  margin: 0 auto;
+	margin-top: 80px;
+	margin-bottom: 20px;
+  max-width: 40%;
+  padding: 30px 38px 60px;
+  background-color: #eee;
+  border: 3px dotted rgba(0,0,0,0.1);
+}
+
+.form-signin-heading {
+  text-align:center;
+  margin-bottom: 30px;
+}
+
+.form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+}
+
+input[type="text"] {
+  margin-bottom: 0px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+input[type="password"] {
+  margin-bottom: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.colorgraph {
+  height: 7px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+#failMessage{
+  margin-top: 20px;
+}
+/*form for editing potholes*/
+#pothole-form{
+  padding-top: 35px;
+}
+/*the map*/
+#map {
+    width:100%;
+    height: 800px;
+    background-color: #CCC;
+  }
+#map p{
+  padding-top: 10px;
+}
+#editButton{
+  width: 40%;
+  margin-top: 15px;
+}

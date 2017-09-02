@@ -1,0 +1,89 @@
+<!-- We don't need full layout in this file because this page will be parsed with Ajax. It is just enough to put here .navbar and .page-->
+
+<!-- Top Navbar-->
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="left">
+      <a href="#" class="back link">
+        <i class="icon icon-back"></i>
+        <span>Back</span>
+       </a>
+    </div>
+    <div class="center sliding">Pothole Recorder</div>
+    <div class="right">
+    </div>
+  </div>
+</div>
+<div class="pages">
+  <div data-page="report-pothole" class="page">
+    <div class="page-content">
+        <h1>Report A Pothole</h1>
+          <div class="content-block-title">Enter Details Below</div>
+          <div class="list-block">
+            <ul>
+              <!-- Text inputs -->
+              <li>
+                <div class="item-content">
+                  <div class="item-inner">
+                    <div class="item-title label">Name</div>
+                    <div class="item-input">
+                      <input id="name" type="text" placeholder="Your name">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="item-content">
+                  <div class="item-inner">
+                    <div class="item-title label">Email</div>
+                    <div class="item-input">
+                      <input id="email" type="email" placeholder="E-mail">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="item-content">
+                  <div class="item-inner">
+                    <div class="item-title label">Status</div>
+                    <div class="item-input">
+                      <input id="repair" type="text" placeholder="Repaired/Unrepaired">
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+        </div>
+        <div class="content-block-title">Pothole Location</div>
+        <div class="list-block">
+          <ul>
+            <!-- Text inputs -->
+            <li>
+              <div class="item-content">
+                <div class="item-inner">
+                  <div class="item-title label">Longitude</div>
+                  <div class="item-input">
+                    <input id="long" type="text" placeholder="Longitude">
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-content">
+                <div class="item-inner">
+                  <div class="item-title label">Latitude</div>
+                  <div class="item-input">
+                    <input id="lat" type="text" placeholder="Latitude">
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="#" onclick="insertLocation()" class="item-link list-button">Use Current Location</a>
+            </li>
+          </ul>
+      </div>
+      <a href="#" onclick="saveLocation()" class="button button-big button-fill external link">Save Report</a>
+    </div>
+  </div>
+</div>
